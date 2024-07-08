@@ -1,0 +1,32 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_fluxus_movement\"}}]": "utter_fluxus_movement",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_fluxus_movement\"}}, {\"prev_action\": {\"action_name\": \"utter_fluxus_movement\"}, \"user\": {\"intent\": \"ask_about_fluxus_movement\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_social_sculpture\"}}]": "utter_social_sculpture",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_social_sculpture\"}}, {\"prev_action\": {\"action_name\": \"utter_social_sculpture\"}, \"user\": {\"intent\": \"ask_about_social_sculpture\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_provocative_performances\"}}]": "utter_provocative_performances",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_provocative_performances\"}}, {\"prev_action\": {\"action_name\": \"utter_provocative_performances\"}, \"user\": {\"intent\": \"ask_about_provocative_performances\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_for_ten_facts_about_beuys_art\"}}]": "utter_ten_facts_about_beuys_art",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_for_ten_facts_about_beuys_art\"}}, {\"prev_action\": {\"action_name\": \"utter_ten_facts_about_beuys_art\"}, \"user\": {\"intent\": \"ask_for_ten_facts_about_beuys_art\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_beuys_art_facts\"}}]": "utter_beuys_art_facts",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_beuys_art_facts\"}}, {\"prev_action\": {\"action_name\": \"utter_beuys_art_facts\"}, \"user\": {\"intent\": \"ask_about_beuys_art_facts\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_knowing_beuys\"}}]": "utter_knowing_beuys",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_knowing_beuys\"}}, {\"prev_action\": {\"action_name\": \"utter_knowing_beuys\"}, \"user\": {\"intent\": \"ask_about_knowing_beuys\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_understanding_beuys_art\"}}]": "utter_understanding_beuys_art",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_understanding_beuys_art\"}}, {\"prev_action\": {\"action_name\": \"utter_understanding_beuys_art\"}, \"user\": {\"intent\": \"ask_about_understanding_beuys_art\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_beuys_important_facts\"}}]": "utter_beuys_important_facts",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_beuys_important_facts\"}}, {\"prev_action\": {\"action_name\": \"utter_beuys_important_facts\"}, \"user\": {\"intent\": \"ask_about_beuys_important_facts\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_for_ten_facts_about_beuys\"}}]": "utter_ten_facts_about_beuys",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_for_ten_facts_about_beuys\"}}, {\"prev_action\": {\"action_name\": \"utter_ten_facts_about_beuys\"}, \"user\": {\"intent\": \"ask_for_ten_facts_about_beuys\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent session_start",
+      "predicting default action with intent restart",
+      "predicting default action with intent back"
+    ]
+  }
+}

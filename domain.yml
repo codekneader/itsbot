@@ -1,0 +1,78 @@
+version: "3.1"
+intents:
+  - ask_social_sculpture
+  - ask_fluxus
+  - ask_performances
+  - ask_knowing_beuys
+  - ask_understanding_art
+  - ask_beuys_facts
+  - ask_art_facts
+  - ask_beuys_ten_facts
+  - ask_art_ten_facts
+
+responses:
+  utter_social_sculpture:
+    - text: "Die 'soziale Skulptur' ist ein Konzept von Joseph Beuys, das besagt, dass Kunst die Gesellschaft formen und verändern kann. Beuys glaubte, dass jeder Mensch kreativ ist und durch sein Handeln zur Gestaltung der Gesellschaft beitragen kann. Dies bedeutet, dass Kunst nicht nur in Museen stattfindet, sondern auch in alltäglichen Handlungen und sozialen Interaktionen."
+
+  utter_fluxus:
+    - text: "Die Fluxus-Bewegung ist eine internationale, interdisziplinäre Kunstbewegung, die in den 1960er Jahren entstand. Sie legt den Schwerpunkt auf das Prozesshafte und das Experimentelle in der Kunst. Fluxus-Künstler wie Beuys, Yoko Ono und Nam June Paik schufen Werke, die oft provokativ und humorvoll waren, und sie stellten traditionelle Kunstformen in Frage, indem sie alltägliche Objekte und Handlungen einbezogen."
+
+  utter_performances:
+    - text: "Provokative Performances sind Kunstaktionen, die bewusst schockieren, herausfordern oder zum Nachdenken anregen sollen. Joseph Beuys' Performances sind bekannt für ihre provokante Natur. Ein berühmtes Beispiel ist 'I Like America and America Likes Me', in dem Beuys drei Tage mit einem Kojoten in einem Raum verbrachte. Solche Performances hinterfragen oft gesellschaftliche Normen und Kunstkonventionen."
+
+  utter_knowing_beuys:
+    - text: "Um Joseph Beuys besser kennenzulernen, empfehle ich, Biografien und Interviews mit ihm zu lesen. Gute Startpunkte sind Bücher wie 'Joseph Beuys: Leben und Werk' von Claudia Glunz. Zudem gibt es Dokumentarfilme und Ausstellungskataloge, die Einblicke in sein Leben und seine Philosophie bieten. Auch ein Besuch in Museen wie dem Hamburger Bahnhof in Berlin oder dem Museum Schloss Moyland kann hilfreich sein."
+
+  utter_understanding_art:
+    - text: "Um Beuys' Kunstwerke besser zu verstehen, lohnt es sich, seine Schriften und Manifeste zu studieren, die oft seine Kunstphilosophie und die Bedeutung seiner Materialien erklären. Der Besuch von Ausstellungen, die geführte Touren oder Audioguides anbieten, kann ebenfalls aufschlussreich sein. Zudem sind Sekundärliteratur und Analysen von Kunsthistorikern, wie z.B. 'Beuys und die Medizin' von Heiner Bastian, hilfreich."
+
+  utter_beuys_facts:
+    - text: "Joseph Beuys (1921-1986) war ein deutscher Künstler und Professor, bekannt für seine innovative Kunstphilosophie, die 'erweiterte Definition der Kunst'. Er war Mitglied der Fluxus-Bewegung und glaubte daran, dass Kunst die Gesellschaft verändern kann. Beuys prägte den Begriff 'soziale Skulptur'."
+
+  utter_art_facts:
+    - text: "Beuys' Kunstwerke sind bekannt für unkonventionelle Materialien wie Fett und Filz, und Performance-Kunst, wie 'I Like America and America Likes Me'. Seine Werke hatten oft politische und soziale Botschaften, etwa '7000 Eichen', eine Umweltaktion."
+
+  utter_beuys_ten_facts:
+    - text: |
+        1. War Pilot im Zweiten Weltkrieg.
+        2. Symbolisierte Schutz durch Materialien wie Fett und Filz.
+        3. Lehrte an der Kunstakademie Düsseldorf.
+        4. Protestierte gegen Studienplatzbeschränkungen.
+        5. War Mitglied der Fluxus-Bewegung.
+        6. Mitbegründer der Grünen Partei.
+        7. Entwickelte das Konzept der 'sozialen Skulptur'.
+        8. Nutzte Tierbilder, insbesondere Hirsche.
+        9. Führte provokative Performances auf.
+        10. Initiierte das Projekt '7000 Eichen'.
+
+  utter_art_ten_facts:
+    - text: |
+        1. 'Fettecke' bestand aus Fett in einer Raumecke.
+        2. 'I Like America and America Likes Me' beinhaltete drei Tage mit einem Kojoten.
+        3. '7000 Eichen' war ein groß angelegtes Umweltkunstprojekt.
+        4. Beuys verwendete oft Honig und Blut.
+        5. 'Filzanzug' symbolisierte Schutz.
+        6. 'Plight' bestand aus Filz und Klavieren.
+        7. 'Ja Ja Ja Ja Ja, Nee Nee Nee Nee Nee' war eine Audioarbeit.
+        8. 'Zeige Deine Wunde' thematisierte Heilung.
+        9. Tiermotive wie Hirsche waren häufig.
+        10. Werke hatten oft politische Botschaften.
+
+actions:
+  - utter_social_sculpture
+  - utter_fluxus
+  - utter_performances
+  - utter_knowing_beuys
+  - utter_understanding_art
+  - utter_beuys_facts
+  - utter_art_facts
+  - utter_beuys_ten_facts
+  - utter_art_ten_facts
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

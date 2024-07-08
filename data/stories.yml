@@ -1,0 +1,46 @@
+version: "3.1"
+stories:
+  - story: handle_social_sculpture
+    steps:
+      - intent: ask_social_sculpture
+      - action: utter_social_sculpture
+
+  - story: handle_fluxus
+    steps:
+      - intent: ask_fluxus
+      - action: utter_fluxus
+
+  - story: handle_performances
+    steps:
+      - intent: ask_performances
+      - action: utter_performances
+
+  - story: handle_knowing_beuys
+    steps:
+      - intent: ask_knowing_beuys
+      - action: utter_knowing_beuys
+
+  - story: handle_understanding_art
+    steps:
+      - intent: ask_understanding_art
+      - action: utter_understanding_art
+
+  - story: handle_beuys_facts
+    steps:
+      - intent: ask_beuys_facts
+      - action: utter_beuys_facts
+
+  - story: handle_art_facts
+    steps:
+      - intent: ask_art_facts
+      - action: utter_art_facts
+
+  - story: handle_beuys_ten_facts
+    steps:
+      - intent: ask_beuys_ten_facts
+      - action: utter_beuys_ten_facts
+
+  - story: handle_art_ten_facts
+    steps:
+      - intent: ask_art_ten_facts
+      - action: utter_art_ten_facts

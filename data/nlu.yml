@@ -1,0 +1,37 @@
+version: "3.1"
+nlu:
+  - intent: ask_social_sculpture
+    examples: |
+      - Was ist soziale Skulptur?
+
+  - intent: ask_fluxus
+    examples: |
+      - Was ist die Fluxus-Bewegung?
+
+  - intent: ask_performances
+    examples: |
+      - Was sind provokative Performances?
+
+  - intent: ask_knowing_beuys
+    examples: |
+      - Wie kann ich Beuys besser kennenlernen?
+
+  - intent: ask_understanding_art
+    examples: |
+      - Wie kann ich Beuys' Kunstwerke besser verstehen?
+
+  - intent: ask_beuys_facts
+    examples: |
+      - Die wichtigsten Sachen über Joseph Beuys
+
+  - intent: ask_art_facts
+    examples: |
+      - Die wichtigsten Sachen über Beuys' Kunstwerke
+
+  - intent: ask_beuys_ten_facts
+    examples: |
+      - Zehn Fakten über Joseph Beuys
+
+  - intent: ask_art_ten_facts
+    examples: |
+      - Zehn Fakten über Beuys' Kunstwerke

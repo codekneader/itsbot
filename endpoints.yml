@@ -1,0 +1,49 @@
+# This file contains the credentials for the different channels
+# your bot can be connected to.
+
+# Facebook Messenger
+#facebook:
+#  verify: "<verify>"
+#  secret: "<your secret>"
+#  page-access-token: "<your page access token>"
+
+# Google Hangouts
+#hangouts:
+#  project_id: "<your project id>"
+#  private_key: "<your private key>"
+#  client_email: "<your client email>"
+
+# Slack
+#slack:
+#  slack_token: "<your slack token>"
+#  slack_channel: "<the slack channel>"
+
+# Mattermost
+#mattermost:
+#  url: "https://<mattermost instance>/api/v4"
+#  team: "<your team>"
+#  user: "<your bot user>"
+#  pw: "<your bot password>"
+
+# Telegram
+#telegram:
+#  access_token: "<your access token>"
+
+# Twilio
+#twilio:
+#  account_sid: "<your account sid>"
+#  auth_token: "<your auth token>"
+#  twilio_number: "<your twilio number>"
+
+# Rasa
+# Used for the Rasa API. Expects a /webhook endpoint.
+#rasa:
+#  url: "http://localhost:5002/api"
+
+# Enable the Rasa SDK endpoint to allow your bot to execute custom actions.
+action_endpoint:
+  url: "http://localhost:5055/webhook"
+
+# Rest API
+rest:
+
